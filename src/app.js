@@ -14,7 +14,7 @@ window.onload = () => {
       .querySelector(".Card")
       .classList.replace(generateRandomSuit(), generateRandomSuit2());
     document.querySelector(".numb").innerHTML = generateRandomNumber();
-  }, 500);
+  }, 10000);
   document.querySelector(".button").addEventListener("click", () => {
     document
       .querySelector(".Card")
